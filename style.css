@@ -1,0 +1,25 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: aqua;
+}
+header li {
+    display: inline-flex;
+}
+img {
+    background-color: blueviolet;
+    width: 5em;
+    border-radius: 50%;
+    height: 20%;
+}
+h1 {
+    background-color: pink;
+}
+#paragraph {
+    background-color: rgb(217, 217, 54);
+}
