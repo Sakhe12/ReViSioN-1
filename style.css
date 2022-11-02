@@ -34,12 +34,15 @@ img {
     border-radius: 50%;
     height: 20%;
 }
-.display-2 {
-    text-align: center;
-}
+
 form {
     text-align: center;
     background-color: blanchedalmond;
+}
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #firstname {
     max-width: 40.75rem;
