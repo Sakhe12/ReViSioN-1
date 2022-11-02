@@ -5,11 +5,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat();
+}
+.main-content {
+    background-color: tomato;
+}
+.content {
+    background-color: orangered;
+}
+.box {
+    display: flex;
+}
 header{
     background-color: aqua;
 }
 header li {
     display: inline-flex;
+}
+footer {
+    background-color: aqua;
 }
 img {
     background-color: blueviolet;
@@ -17,6 +34,35 @@ img {
     border-radius: 50%;
     height: 20%;
 }
+.display-2 {
+    text-align: center;
+}
+form {
+    text-align: center;
+    background-color: blanchedalmond;
+}
+#firstname {
+    max-width: 40.75rem;
+    margin: auto;
+    padding: 0.938rem;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px plum;
+}
+#surname {
+    max-width: 40.75rem;
+    margin: auto;
+    padding: 0.938rem;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px plum;
+}
+#submit {
+    max-width: 40.75rem;
+    margin: auto;
+    padding: 0.938rem;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px plum;
+}
+
 h1 {
     background-color: pink;
 }
